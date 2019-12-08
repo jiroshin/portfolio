@@ -2,7 +2,7 @@
 
 ## jiroshin?
 - short answer: Sugita Shinjiro
-- nickname: jirohsin
+- nickname: jiroshin
 - from: Hiroshima, Japan
 - birthday: 1997/03/30 (859647600)
 
