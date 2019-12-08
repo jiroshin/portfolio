@@ -8,5 +8,5 @@
 
 ## what is this?
 - short answer: jiroshin's portfolio website.
-- hostihg at: null
+- hostihg at: [jiroshin.dev](https://jiroshin.dev)
 - contents: profile, posts, social-links, and humor. 
