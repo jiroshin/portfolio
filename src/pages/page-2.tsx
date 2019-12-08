@@ -1,10 +1,6 @@
-import * as React from "react"
+import React, {FC} from "react"
 
-const SecondPage: React.FC<{}> = () => (
-  <>
-    <div>typesctipt</div> 
-    <div>typesctipt</div>
-  </>
+const SecondPage: React.FC<{}> = () => (   <>     <div>typesctipt</div>      <div>typesctipt</div>   </>
 );
 
 export default SecondPage
