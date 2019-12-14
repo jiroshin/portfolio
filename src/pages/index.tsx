@@ -6,5 +6,4 @@ const IndexPage: FC = () => (
     <p>Profile</p>
   </Layout>
 )
-
 export default IndexPage
