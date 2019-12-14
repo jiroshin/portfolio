@@ -13,6 +13,7 @@ const Header: React.FC = () => (
     </HeaderContents>
   </Div>
 )
+export default Header
 
 const Div = styled.div`
   width: 100%;
@@ -37,5 +38,3 @@ const StyledLink = styled(Link)`
   text-decoration: none;
   color: #212121;
 `
-
-export default Header
