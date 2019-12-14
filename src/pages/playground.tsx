@@ -1,9 +1,9 @@
 import * as React from "react"
 import Layout from "../components/layout"
 
-const Posts: React.FC = () => ( 
+const Playground: React.FC = () => ( 
   <Layout>
-    <p>Posts</p>
+    <p>Playground</p>
   </Layout>
 )
-export default Posts
+export default Playground
