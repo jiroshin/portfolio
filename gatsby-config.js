@@ -35,7 +35,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `standalone`,
-        icon: `static/config-images/mamu100.png`,
+        icon: `static/config-images/icon.png`,
       },
     },
   ],
