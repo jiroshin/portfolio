@@ -10,6 +10,7 @@ const Title: React.FC<Props> = ({title}) => (
     {title}
   </H1>
 )
+export default Title
 
 const H1 = styled.h1`  
   font-size: 30px;
@@ -18,5 +19,3 @@ const H1 = styled.h1`
   vertical-align: 11pt;
   font-family: 'Georgia', 'Big Caslon','Bodoni 72','Bodoni 72 Oldstyle','Mongolian Baiti',sans-serif;
 `
-
-export default Title
