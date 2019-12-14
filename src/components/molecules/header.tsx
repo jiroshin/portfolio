@@ -7,7 +7,7 @@ const Header: React.FC = () => (
   <Div>
     <HeaderContents>
       <StyledLink to="/">
-        <Img src={`/config-images/mamu.png`} alt="logo" />
+        <Img src={`/config-images/mamu100.png`} alt="logo" />
         <Title title={"jiroshin.dev"} />
       </StyledLink>
     </HeaderContents>
