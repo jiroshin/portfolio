@@ -3,7 +3,7 @@ import Layout from '../components/layout';
 
 const Playground: React.FC = () => (
   <Layout>
-    <p>Playground</p>
+    <p>WIP</p>
   </Layout>
 );
 export default Playground;

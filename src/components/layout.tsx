@@ -22,7 +22,7 @@ const Layout: React.FC<Props> = ({ children }) => (
 export default Layout;
 
 const Wrapper = styled.div`
-  max-width: 900px;
+  max-width: 750px;
   margin: 0 auto;
 `;
 
@@ -38,5 +38,12 @@ body {
   color: #212121;
   font-family: 'ヒラギノ角ゴシック','Hiragino Sans','ＭＳ Ｐゴシック','MS PGothic','Mongolian Baiti','Iowan Old Style','AppleColorEmoji','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
   margin: 0;
+}
+h1 {
+}
+h2 {
+  font-family: 'Bodoni 72','Bodoni 72 Oldstyle','Mongolian Baiti', 'sans-serif';
+  font-size: 110%;
+  color: #a7a7a7;
 }
 `;

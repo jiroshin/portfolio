@@ -9,7 +9,7 @@ const Footer: React.FC = () => (
 export default Footer;
 
 const Copyright = styled.p`
-  color: #616161;
+  color: #a7a7a7;
   font-size: 80%;
   text-align: center;
   margin-top: 10px;
