@@ -3,7 +3,7 @@ import Layout from '../components/layout';
 
 const IndexPage: FC = () => (
   <Layout>
-    <p>Profile</p>
+    <p>WIP</p>
   </Layout>
 );
 export default IndexPage;

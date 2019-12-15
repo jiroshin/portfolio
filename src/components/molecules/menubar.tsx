@@ -13,5 +13,5 @@ export default MenuBar;
 
 const Div = styled.div`
   text-align: center;
-  margin: 10px 2px;
+  margin: 15px 2px 25px;
 `;

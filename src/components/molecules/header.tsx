@@ -24,7 +24,7 @@ const Div = styled.div`
 `;
 
 const HeaderContents = styled.div`
-  max-width: 900px;
+  max-width: 750px;
   margin: 0 auto;
 `;
 

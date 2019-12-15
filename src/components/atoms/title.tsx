@@ -5,10 +5,10 @@ interface Props {
   title: string;
 }
 
-const Title: React.FC<Props> = ({ title }) => <H1>{title}</H1>;
+const Title: React.FC<Props> = ({ title }) => <P>{title}</P>;
 export default Title;
 
-const H1 = styled.h1`
+const P = styled.p`
   font-size: 30px;
   display: inline-block;
   margin: 0 39px;
