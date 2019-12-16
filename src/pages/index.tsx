@@ -6,6 +6,35 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faClipboard } from '@fortawesome/free-solid-svg-icons';
 
+const Img = styled.img`
+  width: 100%;
+  box-shadow: 0 0 10px -3px #263238;
+`;
+
+const Icons = styled.div`
+  text-align: center;
+`;
+
+const ProfileTitle = styled.p`
+  font-size: 130%;
+  font-weight: bold;
+`;
+
+const ProfileText = styled.p`
+  padding: 0 20px;
+`;
+
+const Icon = styled(FontAwesomeIcon)`
+  font-size: 230%;
+  margin: 5px 12px;
+`;
+
+const ProfileContents = styled.div`
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 10px;
+`;
+
 const IndexPage: FC = () => {
   library.add(fab);
 
@@ -44,32 +73,3 @@ const IndexPage: FC = () => {
   );
 };
 export default IndexPage;
-
-const Img = styled.img`
-  width: 100%;
-  box-shadow: 0 0 10px -3px #263238;
-`;
-
-const Icons = styled.div`
-  text-align: center;
-`;
-
-const ProfileTitle = styled.p`
-  font-size: 130%;
-  font-weight: bold;
-`;
-
-const ProfileText = styled.p`
-  padding: 0 20px;
-`;
-
-const Icon = styled(FontAwesomeIcon)`
-  font-size: 230%;
-  margin: 5px 12px;
-`;
-
-const ProfileContents = styled.div`
-  margin: 0 auto;
-  max-width: 400px;
-  padding: 10px;
-`;
