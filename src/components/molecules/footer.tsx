@@ -12,5 +12,5 @@ const Copyright = styled.p`
   color: #a7a7a7;
   font-size: 80%;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 50px;
 `;
