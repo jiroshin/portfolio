@@ -52,9 +52,16 @@ const Icons = styled.div`
   text-align: center;
 `;
 
+const Icon = styled(FontAwesomeIcon)`
+  width: 33px;
+  font-size: 42px;
+  margin: 5px 12px;
+`;
+
 const ProfileTitle = styled.p`
-  margin: 15px auto;
+  margin: 25px auto 15px;
   max-width: 400px;
+  padding: 0 5px;
   font-size: 130%;
   font-weight: bold;
 `;
@@ -62,9 +69,6 @@ const ProfileTitle = styled.p`
 const ProfileText = styled.p`
   margin: 8px auto;
   max-width: 400px;
+  padding: 0 5px;
 `;
 
-const Icon = styled(FontAwesomeIcon)`
-  font-size: 230%;
-  margin: 5px 12px;
-`;
