@@ -33,6 +33,9 @@ const IndexPage: FC = () => {
           <Icon icon={faClipboard} style={{ color: '#39ac86' }} />
         </a>
       </Icons>
+      <ProfileText>そのほか:  
+        <A href="https://qiita.com/jiroshin">Qiitaアカウント</A>
+      </ProfileText>
       <ProfileTitle># Like</ProfileTitle>
       <ProfileText>Ruby / Vim / TypeScript</ProfileText>
       <ProfileTitle># Hobby</ProfileTitle>
@@ -72,3 +75,8 @@ const ProfileText = styled.p`
   padding: 0 5px;
 `;
 
+const A = styled.a`
+  margin-left: 5px;
+  color: #a7a7a7;
+  text-decoration: none;
+`;
