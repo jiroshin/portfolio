@@ -46,4 +46,5 @@ const ToolName = styled.p`
 `;
 
 const ToolDesc = styled.p`
+  padding-inline-start: 5px;
 `;
