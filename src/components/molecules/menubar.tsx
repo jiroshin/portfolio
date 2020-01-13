@@ -6,7 +6,8 @@ const MenuBar: React.FC = () => (
   <Div>
     <PageTitle pageTitle="Profile" linkPath="/" />
     <PageTitle pageTitle="Posts" linkPath="/posts" />
-    <PageTitle pageTitle="Playground" linkPath="/playground" />
+    <PageTitle pageTitle="WhatIUse" linkPath="/whatIUse" />
+    {/* <PageTitle pageTitle="Playground" linkPath="/playground" /> */}
   </Div>
 );
 export default MenuBar;
