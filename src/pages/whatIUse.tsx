@@ -15,20 +15,11 @@ const WhatIUse: React.FC = () => (
       </li>
       <li style={{margin:'30px 5px'}}>
         <ToolName>Alfred</ToolName>
-        <ToolDesc>ざっくりいうとSpotlight検索の上位互換です。使い心地に感動して永久ライセンスを買いました。</ToolDesc>
-      </li>
-      <li style={{margin:'30px 5px'}}>
-        <ToolName>iTerm2</ToolName>
-        <ToolDesc>True color, 256colorに対応している使いやすいターミナルエミュレータです。画面分割にはtmuxを使っています。</ToolDesc>
+        <ToolDesc>簡単に説明するとSpotlight検索の上位互換です。使い心地に感動して永久ライセンスを買いました。</ToolDesc>
       </li>
       <li style={{margin:'30px 5px'}}>
         <ToolName>Alacritty</ToolName>
         <ToolDesc>True color, 256colorに対応している速いターミナルエミュレータです。ただし日本語に弱いため心の目でタイピングする必要があります。</ToolDesc>
-      </li>
-      <li style={{margin:'30px 5px'}}>
-        <ToolName>Sequel Pro</ToolName>
-        <ToolDesc>データベースをGUIで簡単に操作できて便利です。
-        </ToolDesc>
       </li>
     </ToolList>
   </Layout>

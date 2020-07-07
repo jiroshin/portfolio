@@ -37,7 +37,7 @@ const IndexPage: FC = () => {
         <A href="https://qiita.com/jiroshin">Qiitaアカウント</A>
       </ProfileText>
       <ProfileTitle># Like</ProfileTitle>
-      <ProfileText>Ruby / Vim / TypeScript</ProfileText>
+      <ProfileText>Vim/ Go / Flutter</ProfileText>
       <ProfileTitle># Hobby</ProfileTitle>
       <ProfileText>ロードバイク / キャンプ / つり</ProfileText>
       <ProfileText>コーヒー / プログラミング</ProfileText>
